@@ -8,21 +8,47 @@
     overflow-y:scroll;
 
 }
-::-webkit-scrollbar {
-    visibility: hidden;
-  }
+ 
   
-#card{
-    
-    height: 300px;
-    width: 1750px;
+  #loanoptions{
+    width: 1500px;
+    height: 780px;
     background: rgb(74,9,93);
     background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
-    background-size: 100% 100%;
     border-radius: 30px;
-    box-shadow: 0px 0px 10px 3px rgb(70, 70, 70);
-    margin-left: 130px;
-    margin-top: 30px;
-    color: whitesmoke;
-    
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+#applyloan, #newquery, #pending, #prevloans{
+    cursor: pointer;
+    margin-top: 150px;
+    margin-left: 250px;
+    height: 80px;
+    width: 350px;
+    font-size: 30px;
+    background-color: yellow;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 4px 6px 3px 3px rgb(107, 107, 0);
+    border: none;
+
+
+}
+#newquery{
+   margin-top: 50px;
+}
+
+
+#prevloans,#pending{
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+
+p{
+    color: white;
+    font-size: 20px;
+    margin-top: 220px;
+    margin-left: 300px;
 }

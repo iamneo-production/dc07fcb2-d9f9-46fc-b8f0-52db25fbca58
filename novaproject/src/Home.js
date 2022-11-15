@@ -151,8 +151,50 @@ function Home() {
             <div id="homeblock">
                 <div id='midcontent'>
                     <div id="card">
+                        <button id="sendmoney">
+                            zXpay Wallet
+                        </button>
+                        <button id="sendmoney">
+                            Send money
+                        </button>
+                        <button id="sendmoney">
+                            Scan QR code
+                        </button>
+                        <button id="sendmoney">
+                            Add Bank Account
+                        </button>
+                        <button id="sendmoney">
+                            Bank Transfer
+                        </button>
+                        <button id="sendmoney">
+                            Self Transfer
+                        </button>
+                        <button id="sendmoney">
+                            Bill Payment
+                        </button>
                     </div>
                     <div id="card">
+                    <button id="sendmoney">
+                            Mobile Recharge
+                        </button>
+                        <button id="sendmoney">
+                            DTH Recharge
+                        </button>
+                        <button id="sendmoney">
+                            Fibernet Recharge
+                        </button>
+                        <button id="sendmoney">
+                            Google Play
+                        </button>
+                        <button id="sendmoney">
+                            Postpaid payment
+                        </button>
+                        <button id="sendmoney">
+                            Cylinder booking
+                        </button>
+                        <button id="sendmoney">
+                            Fastag Recharge
+                        </button>
                     </div>
                     <div id="card">
                     </div>
@@ -172,7 +214,7 @@ function Home() {
                     <li onClick={funtransactions}><div id="imgtrans"></div> <b> Transactions </b></li>
                     <li onClick={funcards} ><div id="imgcards"></div> <b> Cards </b></li>
                     <li onClick={funloan}><div id="imgloan"></div> <b> Loan </b></li>
-                    <li onClick={funcrypto}><div id="imgcrypto"></div> <b> Crypto Currency </b></li>
+                    <li onClick={funcrypto}><div id="imgcrypto"></div> <b> Crypto </b></li>
                     <li onClick={funassistant}><div id="imgassistant"></div> <b> Assistant </b></li>
                     <li id="sidebarspace"></li>
                     <li onClick={funsettings} id="settings"><div id="imgsettings"></div> <b> Settings </b></li>
@@ -184,7 +226,7 @@ function Home() {
             <div id="nav"></div>
 
             <div id="header">
-                <b>  FlashPay </b>
+                <b>  zXPay </b>
                 <div id="nav-items">
                     Hello, John Cena
                 </div>
