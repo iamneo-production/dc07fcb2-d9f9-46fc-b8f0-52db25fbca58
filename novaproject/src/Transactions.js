@@ -17,6 +17,14 @@ function Transactions() {
                             <option value="">Rent</option>
                             
                         </select>
+
+                        <h2> Account </h2>: 
+                        <select>
+                            <option value="">All</option>
+                            <option value="">XXXX1</option>
+                            <option value="">XXXX2</option>
+                            <option value="">XXXX3</option>
+                        </select>
                     </div>
                     <div id="results">
                         

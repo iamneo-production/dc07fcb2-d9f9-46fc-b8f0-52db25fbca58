@@ -18,6 +18,12 @@ function Cards() {
         document.getElementById("inum").value="";
         document.getElementById("idate").value="";
     }
+    function cardbackfun(){
+        document.getElementById("addform").style.visibility = "hidden";
+        document.getElementById("iname").value="";
+        document.getElementById("inum").value="";
+        document.getElementById("idate").value="";
+    }
     return (
         <div>
             <div id="cardsblock">
@@ -35,7 +41,8 @@ function Cards() {
                         <input id="iname" type="text" placeholder='Enter CardHolder Name'/>
                         <input id="inum" type="number" placeholder='Enter Card Number' maxLength={12}/>
                         <input id="idate" type="text" placeholder='Enter Expiry Date (MM/YY)'/>
-                        <button type = "submit" onClick={cardaddfun}>ADD</button>
+                        <button type = "submit" id="cadd" onClick={cardaddfun}>ADD</button>
+                        <button type = "clear" id="cback" onClick={cardbackfun}>CANCEL</button>
                     </div>
                     <div id="bottomcards">
                         <div id="addcard">

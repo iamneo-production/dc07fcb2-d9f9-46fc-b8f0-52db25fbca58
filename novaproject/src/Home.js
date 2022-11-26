@@ -1,25 +1,7 @@
 import './Home.css';
 
 function Home() {
-    function hide(){
-        document.getElementById("home").style.visibility="hidden";
-        document.getElementById("homeblock").style.visibility="hidden";
-        document.getElementById("transaction").style.visibility="hidden";
-        document.getElementById("bankcard").style.visibility="hidden";
-        document.getElementById("loan").style.visibility="hidden";
-        document.getElementById("assistant").style.visibility="hidden";
-        document.getElementById("crypto").style.visibility="hidden";
-        document.getElementById("setting").style.visibility="hidden";
-        document.getElementById("profilebox").style.visibility="hidden";
-
-        document.getElementById("imghome").style.backgroundColor = "white";
-        document.getElementById("imgcards").style.backgroundColor = "white";
-        document.getElementById("imgtrans").style.backgroundColor = "white";
-        document.getElementById("imgloan").style.backgroundColor = "white";
-        document.getElementById("imgcrypto").style.backgroundColor = "white";
-        document.getElementById("imgassistant").style.backgroundColor = "white";
-        document.getElementById("imgsettings").style.backgroundColor = "white";
-    }
+    
 
     function funhome(){
         document.getElementById("transaction").style.visibility="hidden";
@@ -29,6 +11,8 @@ function Home() {
         document.getElementById("assistant").style.visibility="hidden";
         document.getElementById("crypto").style.visibility="hidden";
         document.getElementById("setting").style.visibility="hidden";
+        document.getElementById("botinterface").style.visibility="hidden";
+        document.getElementById("chatoptions").style.visibility="hidden";
 
         document.getElementById("imghome").style.backgroundColor = "yellow";
         document.getElementById("imgcards").style.backgroundColor = "white";
@@ -46,6 +30,8 @@ function Home() {
         document.getElementById("assistant").style.visibility="hidden";
         document.getElementById("crypto").style.visibility="hidden";
         document.getElementById("setting").style.visibility="hidden";
+        document.getElementById("botinterface").style.visibility="hidden";
+        document.getElementById("chatoptions").style.visibility="hidden";
         
         document.getElementById("imgtrans").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -64,6 +50,8 @@ function Home() {
         document.getElementById("assistant").style.visibility="hidden";
         document.getElementById("crypto").style.visibility="hidden";
         document.getElementById("setting").style.visibility="hidden";
+        document.getElementById("botinterface").style.visibility="hidden";
+        document.getElementById("chatoptions").style.visibility="hidden";
 
         document.getElementById("imgcards").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -81,6 +69,8 @@ function Home() {
         document.getElementById("assistant").style.visibility="hidden";
         document.getElementById("crypto").style.visibility="hidden";
         document.getElementById("setting").style.visibility="hidden";
+        document.getElementById("botinterface").style.visibility="hidden";
+        document.getElementById("chatoptions").style.visibility="hidden";
 
         document.getElementById("imgloan").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -99,6 +89,8 @@ function Home() {
         document.getElementById("assistant").style.visibility="hidden";
         document.getElementById("crypto").style.visibility="visible";
         document.getElementById("setting").style.visibility="hidden";
+        document.getElementById("botinterface").style.visibility="hidden";
+        document.getElementById("chatoptions").style.visibility="hidden";
 
         document.getElementById("imgcrypto").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -117,6 +109,7 @@ function Home() {
         document.getElementById("assistant").style.visibility="visible";
         document.getElementById("crypto").style.visibility="hidden";
         document.getElementById("setting").style.visibility="hidden";
+        document.getElementById("chatoptions").style.visibility="visible";
 
         document.getElementById("imgassistant").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -135,6 +128,8 @@ function Home() {
         document.getElementById("assistant").style.visibility="hidden";
         document.getElementById("crypto").style.visibility="hidden";
         document.getElementById("setting").style.visibility="visible";
+        document.getElementById("botinterface").style.visibility="hidden";
+        document.getElementById("chatoptions").style.visibility="hidden";
 
         document.getElementById("imgsettings").style.backgroundColor = "yellow";
         document.getElementById("imgassistant").style.backgroundColor = "white";
@@ -161,20 +156,20 @@ function Home() {
                             Scan QR code
                         </button>
                         <button id="sendmoney">
-                            Add Bank Account
+                            Self Transfer
                         </button>
                         <button id="sendmoney">
                             Bank Transfer
                         </button>
                         <button id="sendmoney">
-                            Self Transfer
+                            Add Bank Account
                         </button>
                         <button id="sendmoney">
-                            Bill Payment
+                            Check Balance
                         </button>
                     </div>
                     <div id="card">
-                    <button id="sendmoney">
+                        <button id="sendmoney">
                             Mobile Recharge
                         </button>
                         <button id="sendmoney">
@@ -187,7 +182,7 @@ function Home() {
                             Google Play
                         </button>
                         <button id="sendmoney">
-                            Postpaid payment
+                            Bill payment
                         </button>
                         <button id="sendmoney">
                             Cylinder booking
@@ -197,6 +192,27 @@ function Home() {
                         </button>
                     </div>
                     <div id="card">
+                        <button id="sendmoney">
+                            Movie
+                        </button>
+                        <button id="sendmoney">
+                            Train
+                        </button>
+                        <button id="sendmoney">
+                            Bus
+                        </button>
+                        <button id="sendmoney">
+                            Plane
+                        </button>
+                        <button id="sendmoney">
+                            Cruise
+                        </button>
+                        <button id="sendmoney">
+                            Sports
+                        </button>
+                        <button id="sendmoney">
+                            Events
+                        </button>
                     </div>
                     <div id="card">
                     </div>
@@ -237,8 +253,6 @@ function Home() {
                     <h5 id="name"> Name: John Cena  </h5> 
                     <h5 id="uid"> Flash ID: john123@fyl </h5>
                     <h5 id="kyc"> KYC Verified </h5>
-                    <div id="logout" onClick={hide}>
-                        Logout</div>
                 </div>
             </div>
         </div>
