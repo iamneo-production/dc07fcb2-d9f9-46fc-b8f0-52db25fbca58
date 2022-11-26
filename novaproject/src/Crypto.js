@@ -18,8 +18,6 @@ function Crypto() {
                         <button id="managetasks">
                             Notifier
                         </button>
-
-                        
                     </div>
                 </div>
             </div>
