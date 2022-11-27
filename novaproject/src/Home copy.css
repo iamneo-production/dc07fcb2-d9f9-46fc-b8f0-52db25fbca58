@@ -12,7 +12,7 @@
   
 #card{
     
-    height: 350px;
+    height: 300px;
     width: 1750px;
     border-top:1px solid transparent;
     background: rgb(74,9,93);
@@ -43,74 +43,27 @@
 
 #card button{
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 90px;
     font-size: 20px;
     font-family: arial;
     width: 150px;
     height: 150px;
     background-color: yellow;
-    background-size: 60% 60%;
+    background-size: 60% 50%;
     background-position-x: 30px;
-    background-position-y: 30px;
+    background-position-y: 20px;
     background-repeat: no-repeat;
     border-radius: 30px;
     transition: 300ms;
     box-shadow: 4px 6px 3px 3px rgb(107, 107, 0);
     border: none;
-    border-top: 1px solid transparent;
-   
+    padding-top: 100px;
 }
 
 #card button:hover{
     box-shadow: -6px -4px 3px 3px rgb(107, 107, 0);
 }
-.card1 button b{
-    position: absolute;
-    margin-top: 100px;
-    margin-left: -50px;
-    color: white;
-    font-style: normal;
-    font-size: 18px;
-}
-.card1 #qrcode b{
-    margin-left: -55px ;
-}
-.card1 #checkbalance b{
-    margin-left: -60px ;
-}
-.card1 #banktransfer b{
-    margin-left: -55px ;
-}
-
-
-.card2 button b{
-    position: absolute;
-    margin-top: 100px;
-    margin-left: -40px;
-    color: white;
-    font-style: normal;
-    font-size: 18px;
-}
-.card2 #googlerec b{
-    margin-left: -50px ;
-}
-
-
-
-.card3 button b{
-    position: absolute;
-    margin-top: 100px;
-    margin-left: -23px;
-    color: white;
-    font-style: normal;
-    font-size: 18px;
-}
-.card3 #bus b{
-    margin-left: -18px ;
-}
-
-
 
 #wallet{
     background-image: url(images/home/wallet.png);
@@ -208,7 +161,6 @@
     display: inline;
     background-color: yellow;
     border-radius: 8px;
-    padding-left: 10px;
 }
 
 
@@ -252,7 +204,7 @@
     animation: disp 200ms;
 }
 
-#pname,#pid{
+#name,#uid{
     margin-top: 40px;
     margin-left: 100px;
 }
@@ -268,12 +220,12 @@
     overflow: hidden;
     border-radius: 7px;
 }
-#pname{
+#name{
     margin-bottom: -38px;
 }
 
 #kyc{
-    margin-left: 55px;
+    margin-left: 75px;
     font-size: 25px;
     margin-top: -2px;
 }
