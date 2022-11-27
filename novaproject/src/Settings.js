@@ -32,7 +32,11 @@ function Settings() {
                         <div><b> Profile </b></div>
                         <div><b>Notifications </b></div>
                         <div><b>UPI address</b></div>
+<<<<<<< HEAD
                         <div><b>Security</b></div>
+=======
+                        <div><b>Privacy</b></div>
+>>>>>>> NASSCOM---Neo-Bank-Pkushal041
                         <div><b>About us</b></div>
                         <div onClick={hide}><b>Log Out</b></div>
                         </center>

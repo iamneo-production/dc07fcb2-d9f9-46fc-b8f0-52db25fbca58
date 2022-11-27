@@ -1,11 +1,5 @@
 import './Home.css';
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
 function Home() {
     
 
@@ -19,10 +13,7 @@ function Home() {
         document.getElementById("setting").style.visibility="hidden";
         document.getElementById("botinterface").style.visibility="hidden";
         document.getElementById("chatoptions").style.visibility="hidden";
-<<<<<<< HEAD
-=======
         document.getElementById("reward").style.visibility="hidden";
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
 
         document.getElementById("imghome").style.backgroundColor = "yellow";
         document.getElementById("imgcards").style.backgroundColor = "white";
@@ -43,10 +34,7 @@ function Home() {
         document.getElementById("setting").style.visibility="hidden";
         document.getElementById("botinterface").style.visibility="hidden";
         document.getElementById("chatoptions").style.visibility="hidden";
-<<<<<<< HEAD
-=======
         document.getElementById("reward").style.visibility="hidden";
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
         
         document.getElementById("imgtrans").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -68,10 +56,7 @@ function Home() {
         document.getElementById("setting").style.visibility="hidden";
         document.getElementById("botinterface").style.visibility="hidden";
         document.getElementById("chatoptions").style.visibility="hidden";
-<<<<<<< HEAD
-=======
         document.getElementById("reward").style.visibility="hidden";
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
 
         document.getElementById("imgcards").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -92,10 +77,7 @@ function Home() {
         document.getElementById("setting").style.visibility="hidden";
         document.getElementById("botinterface").style.visibility="hidden";
         document.getElementById("chatoptions").style.visibility="hidden";
-<<<<<<< HEAD
-=======
         document.getElementById("reward").style.visibility="hidden";
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
 
         document.getElementById("imgloan").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -139,10 +121,7 @@ function Home() {
         document.getElementById("setting").style.visibility="hidden";
         document.getElementById("botinterface").style.visibility="hidden";
         document.getElementById("chatoptions").style.visibility="hidden";
-<<<<<<< HEAD
-=======
         document.getElementById("reward").style.visibility="hidden";
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
 
         document.getElementById("imgcrypto").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -163,11 +142,7 @@ function Home() {
         document.getElementById("crypto").style.visibility="hidden";
         document.getElementById("setting").style.visibility="hidden";
         document.getElementById("chatoptions").style.visibility="visible";
-<<<<<<< HEAD
-=======
         document.getElementById("reward").style.visibility="hidden";
-        document.getElementById("botinterface").style.visibility="hidden";
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
 
         document.getElementById("imgassistant").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -189,10 +164,7 @@ function Home() {
         document.getElementById("setting").style.visibility="visible";
         document.getElementById("botinterface").style.visibility="hidden";
         document.getElementById("chatoptions").style.visibility="hidden";
-<<<<<<< HEAD
-=======
         document.getElementById("reward").style.visibility="hidden";
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
 
         document.getElementById("imgsettings").style.backgroundColor = "yellow";
         document.getElementById("imgassistant").style.backgroundColor = "white";
@@ -203,7 +175,6 @@ function Home() {
         document.getElementById("imgcrypto").style.backgroundColor = "white";
         document.getElementById("imgreward").style.backgroundColor = "white";
         
-        
     }
 
 
@@ -211,135 +182,83 @@ function Home() {
         <div>
             <div id="homeblock">
                 <div id='midcontent'>
-                    <div id="card" className='card1'>
+                    <div id="card">
                         <div id="cardtitle">
-                            Money Transfer 
+                            Money Transfer
                         </div>
                         <button id="wallet">
-                        <b> zXpay Wallet</b>
+                            zXpay Wallet
                         </button>
                         <button id="sendmoney">
-                        <b> Send Money</b>
+                            Send money
                         </button>
                         <button id="qrcode">
-                        <b> Scan QR code</b>
+                            Scan QR code
                         </button>
-<<<<<<< HEAD
-                        <button id="sendmoney">
-                            Self Transfer
-=======
                         <button id="selftransfer">
-                        <b> Self Transfer</b>
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
+                            Self Transfer
                         </button>
-                        <button id="banktransfer"> 
-                        <b> Bank Transfer</b>
-                        </button> 
+                        <button id="banktransfer">
+                            Bank Transfer
+                        </button>
                         <button id="addaccount">
-                        <b>  Add Account</b>
+                            Add Account
                         </button>
-<<<<<<< HEAD
-                        <button id="sendmoney">
-                            Add Bank Account
-                        </button>
-                        <button id="sendmoney">
+                        <button id="checkbalance">
                             Check Balance
                         </button>
                     </div>
                     <div id="card">
-                        <button id="sendmoney">
-                            Mobile Recharge
-=======
-                        <button id="checkbalance">
-                        <b>  Check Balance</b>
-                        </button>
-                    </div>
-                    <div id="card" className='card2'>
-                        <div id="cardtitle" >
-                         Recharge and Bill Payment
+                        <div id="cardtitle">
+                            Recharge and Bill Payment
                         </div>
                         <button id="mobilerec">
-                        <b> Mobile <br/>Recharge</b>
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
+                            Mobile Recharge
                         </button>
                         <button id="dthrec">
-                        <b>  DTH <br/>  Recharge</b>
+                            DTH <br/>  Recharge
                         </button>
                         <button id="fibernetrec">
-                        <b>  Fibernet <br/>Recharge</b>
+                            Fibernet Recharge
                         </button>
                         <button id="googlerec">
-                        <b>  Google Play<br/> Recharge</b>
+                            Google Play Recharge
                         </button>
-<<<<<<< HEAD
-                        <button id="sendmoney">
-                            Bill payment
-=======
                         <button id="billpay">
-                        <b>  Bill  <br/>payment</b>
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
+                            Bill  <br/>payment
                         </button>
                         <button id="gasbook">
-                        <b>  Gas <br/> booking</b>
+                            Gas <br/> booking
                         </button>
                         <button id="fasttagrec">
-                        <b>  Fastag <br/>Recharge</b>
-                        </button>
-                    </div>
-<<<<<<< HEAD
-                    <div id="card">
-                        <button id="sendmoney">
-                            Movie
-                        </button>
-                        <button id="sendmoney">
-                            Train
-                        </button>
-                        <button id="sendmoney">
-                            Bus
-                        </button>
-                        <button id="sendmoney">
-                            Plane
-                        </button>
-                        <button id="sendmoney">
-                            Cruise
-                        </button>
-                        <button id="sendmoney">
-                            Sports
-                        </button>
-                        <button id="sendmoney">
-                            Events
+                            Fastag Recharge
                         </button>
                     </div>
                     <div id="card">
-                    </div>
-                    <div id="card">
-=======
-                    <div id="card" className='card3'>
                         <div id="cardtitle">
-                          Ticket Booking
+                            Ticket Booking
                         </div>
                         <button id="movie">
-                        <b>  Movie</b>
+                            Movie
                         </button>
                         <button id="train">
-                        <b>   Train</b>
+                            Train
                         </button>
                         <button id="bus">
-                        <b>   Bus</b>
+                            Bus
                         </button>
                         <button id="plane">
-                        <b>  Plane</b>
+                            Plane
                         </button>
                         <button id="cruise">
-                        <b>  Cruise</b>
+                            Cruise
                         </button>
                         <button id="sports">
-                        <b>  Sports</b>
+                            Sports
                         </button>
                         <button id="events">
-                        <b>   Events</b>
+                            Events
                         </button>
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
                     </div>
                     <div id="botspace"></div>
                 </div>
@@ -366,23 +285,17 @@ function Home() {
             <div id="nav"></div>
 
             <div id="header">
-                <b>  DXPay </b>
+                <b>  zXPay </b>
                 <div id="nav-items">
-                    Hello, 
+                    Hello, John Cena
                 </div>
                 <div id="profile"></div>
                 
                 <div id="profilebox">
                     <div id="pic"></div>
-<<<<<<< HEAD
                     <h5 id="name"> Name: John Cena  </h5> 
-                    <h5 id="uid"> Flash ID: john123@fyl </h5>
+                    <h5 id="uid"> User ID: john123@fyl </h5>
                     <h5 id="kyc"> KYC Verified </h5>
-=======
-                    <h5 id="pname"> Name:  </h5> 
-                    <h5 id="pid"> User ID: @fyl </h5>
-                    <h5 id="kyc"> KYC Not Verified </h5>
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
                 </div>
             </div>
         </div>
