@@ -37,7 +37,15 @@ function Loginform() {
                 var age = snapshot.child('age').val();
                 document.getElementById("nav-items").innerHTML = "Hello, "+name;
                 document.getElementById("pname").innerHTML = "Name: "+name;
+<<<<<<< HEAD
                 document.getElementById("pid").innerHTML = "User ID: "+mobile+"@dxp";
+=======
+                document.getElementById("pid").innerHTML = "UPI ID: "+mobile+"@dxp";
+                document.getElementById("piname").innerHTML = name;
+                document.getElementById("piphone").innerHTML = mobile;
+                document.getElementById("pimail").innerHTML = mail;
+                document.getElementById("piid").innerHTML = mobile+"@dxp";
+>>>>>>> Nasscom
                 }
             });
         }

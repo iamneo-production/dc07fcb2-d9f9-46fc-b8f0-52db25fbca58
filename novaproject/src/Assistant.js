@@ -49,6 +49,7 @@ const answers = [
 ];
 
 
+<<<<<<< HEAD
 
 const utterances = [ 
     ["how are you", "how is life", "how are things"],        //0
@@ -95,6 +96,12 @@ function Assistant() {
 =======
 
 >>>>>>> NASSCOM---Neo-Bank-Pkushal041
+=======
+
+function Assistant() {
+
+
+>>>>>>> Nasscom
     const sleep = ms => new Promise(r => setTimeout(r, ms));
     
     function autoscroll(){
@@ -192,12 +199,16 @@ function Assistant() {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 =======
     
 >>>>>>> NASSCOM---Neo-Bank-Pkushal041
+=======
+    
+>>>>>>> Nasscom
 
 
 
@@ -239,6 +250,7 @@ function Assistant() {
                     <div id="typemessage">
                         <form action="javascript:void(0);">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <input type="text" id="text" placeholder='Enter message' autoComplete='off'/>
                         <button id="sendmessage" type="submit" onClick={sendmess}>Send</button>
 =======
@@ -246,6 +258,11 @@ function Assistant() {
                         <button id="sendmessage" type="submit" onClick={sendmess}>Send</button>
 
 >>>>>>> NASSCOM---Neo-Bank-Pkushal041
+=======
+                        <input type="text" id="text" placeholder='Enter message' autoComplete='off' />
+                        <button id="sendmessage" type="submit" onClick={sendmess}>Send</button>
+
+>>>>>>> Nasscom
                         </form>
                     </div>
                 </div>

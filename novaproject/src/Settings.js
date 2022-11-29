@@ -1,6 +1,9 @@
 import './Settings.css';
 
 function Settings() {
+    function openprofile(){
+        document.getElementById("profileblock").style.visibility = "visible";
+    }
     function hide(){
         document.getElementById("home").style.visibility="hidden";
         document.getElementById("homeblock").style.visibility="hidden";
@@ -29,6 +32,7 @@ function Settings() {
                 <div id='midcontent'>
                     <div id="settingscontent">
                         <center>
+<<<<<<< HEAD
                         <div><b> Profile </b></div>
                         <div><b>Notifications </b></div>
                         <div><b>UPI address</b></div>
@@ -37,6 +41,12 @@ function Settings() {
 =======
                         <div><b>Privacy</b></div>
 >>>>>>> NASSCOM---Neo-Bank-Pkushal041
+=======
+                        <div onClick={openprofile}><b> Profile </b></div>
+                        <div><b>Notifications </b></div>
+                        <div><b>UPI address</b></div>
+                        <div><b>Privacy</b></div>
+>>>>>>> Nasscom
                         <div><b>About us</b></div>
                         <div onClick={hide}><b>Log Out</b></div>
                         </center>

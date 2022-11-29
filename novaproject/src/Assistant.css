@@ -66,10 +66,14 @@ p{
     background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
     height: 810px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1000px;
 =======
     width: 970px;
 >>>>>>> NASSCOM---Neo-Bank-Pkushal041
+=======
+    width: 970px;
+>>>>>>> Nasscom
     left: 480px;
     top: 20px;
     border-radius: 25px;
@@ -89,10 +93,14 @@ p{
     cursor: pointer;
     margin-top: 15px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-left: 850px;
 =======
     margin-left: 820px;
 >>>>>>> NASSCOM---Neo-Bank-Pkushal041
+=======
+    margin-left: 820px;
+>>>>>>> Nasscom
     height: 50px;
     width: 120px;
     background-color: rgb(255, 67, 67);
@@ -159,16 +167,21 @@ form{
 
 #typemessage{
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-top: 10px;
 =======
     margin-top: 7px;
 >>>>>>> NASSCOM---Neo-Bank-Pkushal041
+=======
+    margin-top: 7px;
+>>>>>>> Nasscom
     height: 50px;
     border-radius: 20px;
     width: 95%;
     margin-left: 20px;
     display: flex;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 #text{
     height: 50px;
@@ -179,6 +192,8 @@ form{
     outline: none;
     font-size: 25px;
 =======
+=======
+>>>>>>> Nasscom
 
 
 #text{
@@ -209,7 +224,10 @@ form{
     background-repeat: no-repeat;
     background-position: 6px 5px;
     box-shadow: 0px 0px 2px 2px rgb(8, 8, 8);
+<<<<<<< HEAD
 >>>>>>> NASSCOM---Neo-Bank-Pkushal041
+=======
+>>>>>>> Nasscom
 }
 
 #sendmessage{
