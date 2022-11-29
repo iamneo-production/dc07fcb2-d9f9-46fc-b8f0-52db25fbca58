@@ -14,7 +14,6 @@ import Settings from './Settings';
 import Profile from './Profile';
 
 
-
 const form1 = ReactDOM.createRoot(document.getElementById('registerform'));
 form1.render(
 

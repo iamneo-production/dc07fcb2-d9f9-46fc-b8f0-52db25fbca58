@@ -32,21 +32,10 @@ function Settings() {
                 <div id='midcontent'>
                     <div id="settingscontent">
                         <center>
-<<<<<<< HEAD
-                        <div><b> Profile </b></div>
-                        <div><b>Notifications </b></div>
-                        <div><b>UPI address</b></div>
-<<<<<<< HEAD
-                        <div><b>Security</b></div>
-=======
-                        <div><b>Privacy</b></div>
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
-=======
                         <div onClick={openprofile}><b> Profile </b></div>
                         <div><b>Notifications </b></div>
                         <div><b>UPI address</b></div>
                         <div><b>Privacy</b></div>
->>>>>>> Nasscom
                         <div><b>About us</b></div>
                         <div onClick={hide}><b>Log Out</b></div>
                         </center>

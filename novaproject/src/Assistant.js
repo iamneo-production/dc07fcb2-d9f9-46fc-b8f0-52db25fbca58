@@ -49,59 +49,10 @@ const answers = [
 ];
 
 
-<<<<<<< HEAD
-
-const utterances = [ 
-    ["how are you", "how is life", "how are things"],        //0
-    ["hi", "hey", "hello", "good morning", "good afternoon"],      //1
-    ["what are you doing", "what is going on", "what is up"],      //2
-    ["how old are you"],					//3
-    ["who are you", "are you human", "are you bot", "are you human or bot"],   //4
-    ["can i order a pizza" , "order a pizza"],   //5
-    ["fine","good","i am fine", "im fine", "i am good","im good"], //6
-    ["check my credit card balance","balance","check my balance"],
-    ["open an account","I want to open an account"],
-   
-];
-
-const answers = [
-     [
-      "Fine... how are you?",
-      "Pretty well, how are you?",
-      "Fantastic, how are you?"
-    ],                    //0
-    [
-      "Hello!", "Hi!", "Hey!", "Hi there!"
-    ],						//1
-    [
-      "Nothing much",
-      "About to go to sleep",
-      "Can you guess?",
-      "I don't know actually"
-    ],						//2
-    ["I am infinite"],					//3
-    ["I am your banking assistant" , "Your assistant"],	//4
-    ["Yeah sure sir" , "Sorry sir, You don't have enough balance for that" , "Not one sir, You can order more than 10"], //5
-    ["glad to hear that"],
-    ["Here's your latest balance:"],
-    ["This feature is currenly under implementation"],
-
-];
-
-
-
-function Assistant() {
-
-<<<<<<< HEAD
-=======
-
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
-=======
 
 function Assistant() {
 
 
->>>>>>> Nasscom
     const sleep = ms => new Promise(r => setTimeout(r, ms));
     
     function autoscroll(){
@@ -198,17 +149,7 @@ function Assistant() {
         document.getElementById("chatoptions").style.visibility="hidden";
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-
-=======
     
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
-=======
-    
->>>>>>> Nasscom
 
 
 
@@ -249,20 +190,9 @@ function Assistant() {
                     <div id="messagearea"></div>
                     <div id="typemessage">
                         <form action="javascript:void(0);">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        <input type="text" id="text" placeholder='Enter message' autoComplete='off'/>
-                        <button id="sendmessage" type="submit" onClick={sendmess}>Send</button>
-=======
                         <input type="text" id="text" placeholder='Enter message' autoComplete='off' />
                         <button id="sendmessage" type="submit" onClick={sendmess}>Send</button>
 
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
-=======
-                        <input type="text" id="text" placeholder='Enter message' autoComplete='off' />
-                        <button id="sendmessage" type="submit" onClick={sendmess}>Send</button>
-
->>>>>>> Nasscom
                         </form>
                     </div>
                 </div>

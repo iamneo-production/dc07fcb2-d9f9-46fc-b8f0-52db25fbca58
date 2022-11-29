@@ -95,8 +95,6 @@
 .card2 #googlerec b{
     margin-left: -50px ;
 }
-<<<<<<< HEAD
-=======
 
 
 
@@ -179,94 +177,10 @@
 #events{
     background-image: url(images/home/event.png);
 }
->>>>>>> Nasscom
 
 
 
-.card3 button b{
-    position: absolute;
-    margin-top: 100px;
-    margin-left: -23px;
-    color: white;
-    font-style: normal;
-    font-size: 18px;
-}
-.card3 #bus b{
-    margin-left: -18px ;
-}
 
-
-<<<<<<< HEAD
-#sendmoney:hover{
-    box-shadow: -6px -4px 3px 3px rgb(107, 107, 0);
-=======
-
-#wallet{
-    background-image: url(images/home/wallet.png);
-}
-#sendmoney{
-    background-image: url(images/home/sendmoney.png);
-}
-#qrcode{
-    background-image: url(images/home/qrcode.png);
-}
-#selftransfer{
-    background-image: url(images/home/selftransfer.png);
-}
-#banktransfer{
-    background-image: url(images/home/banktransfer.png);
-}
-#addaccount{
-    background-image: url(images/home/addbank.png);
-}
-#checkbalance{
-    background-image: url(images/home/checkbalance.png);
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
-}
-
-#mobilerec{
-    background-image: url(images/home/mobilerec.png);
-}
-#dthrec{
-    background-image: url(images/home/dth.png);
-}
-#fibernetrec{
-    background-image: url(images/home/fibernet.png);
-}
-#googlerec{
-    background-image: url(images/home/googleplay.png);
-}
-#billpay{
-    background-image: url(images/home/bill.png);
-}
-#gasbook{
-    background-image: url(images/home/gas.png);
-}
-#fasttagrec{
-    background-image: url(images/home/fasttag.png);
-}
-
-#movie{
-    background-image: url(images/home/movie.png);
-}
-#train{
-    background-image: url(images/home/train.png);
-}
-#bus{
-    background-image: url(images/home/bus.png);
-}
-#plane{
-    background-image: url(images/home/plane.png);
-}
-#cruise{
-    background-image: url(images/home/cruise.png);
-}
-#sports{
-    background-image: url(images/home/sports.png);
-}
-#events{
-    background-image: url(images/home/event.png);
-}
 
 
 
@@ -365,11 +279,7 @@
 }
 #profilebox{
     position: absolute;
-<<<<<<< HEAD
-    height: 150px;
-=======
     height: 220px;
->>>>>>> Nasscom
     width: 300px;
     border-radius: 50px;
     background:  rgb(255, 255, 20);
@@ -380,13 +290,6 @@
     animation: none;
     border: 5px solid black;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
-
-=======
 
 #btprof{
     height: 50px;
@@ -399,7 +302,6 @@
     color: white;
     font-size: 25px;
 }
->>>>>>> Nasscom
 
 
 
@@ -417,11 +319,7 @@
     100%{
         left: 1550px;
         top:80px;
-<<<<<<< HEAD
-        height: 150px;
-=======
         height:220px;
->>>>>>> Nasscom
         width: 300px;
     }
 }
@@ -520,15 +418,7 @@
 }
 
 #side-items #sidebarspace{
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height: 260px;
-=======
     height: 180px;
->>>>>>> NASSCOM---Neo-Bank-Pkushal041
-=======
-    height: 180px;
->>>>>>> Nasscom
 }
 #side-items #sidebarspace:hover{
     background:none;
