@@ -1,6 +1,9 @@
 import './Settings.css';
 
 function Settings() {
+    function openprofile(){
+        document.getElementById("profileblock").style.visibility = "visible";
+    }
     function hide(){
         document.getElementById("home").style.visibility="hidden";
         document.getElementById("homeblock").style.visibility="hidden";
@@ -11,6 +14,8 @@ function Settings() {
         document.getElementById("crypto").style.visibility="hidden";
         document.getElementById("setting").style.visibility="hidden";
         document.getElementById("profilebox").style.visibility="hidden";
+        document.getElementById("botinterface").style.visibility="hidden";
+        document.getElementById("chatoptions").style.visibility="hidden";
 
         document.getElementById("imghome").style.backgroundColor = "white";
         document.getElementById("imgcards").style.backgroundColor = "white";
@@ -20,18 +25,19 @@ function Settings() {
         document.getElementById("imgassistant").style.backgroundColor = "white";
         document.getElementById("imgsettings").style.backgroundColor = "white";
     }
+    
     return (
         <div>
             <div id="settingsblock">
                 <div id='midcontent'>
                     <div id="settingscontent">
                         <center>
-                        <h2>Profile </h2>
-                        <h2>Notifications </h2>
-                        <h2>UPI address</h2>
-                        <h2>Security</h2>
-                        <h2>About us</h2>
-                        <h2 onClick={hide}>Log Out</h2>
+                        <div onClick={openprofile}><b> Profile </b></div>
+                        <div><b>Notifications </b></div>
+                        <div><b>UPI address</b></div>
+                        <div><b>Privacy</b></div>
+                        <div><b>About us</b></div>
+                        <div onClick={hide}><b>Log Out</b></div>
                         </center>
                     </div>
                 </div>

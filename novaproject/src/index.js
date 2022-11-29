@@ -7,9 +7,12 @@ import Home from './Home';
 import Transactions from './Transactions';
 import Cards from './Cards';
 import Loans from './Loans';
+import Rewards from './Rewards';
 import Crypto from './Crypto';
 import Assistant from './Assistant';
 import Settings from './Settings';
+import Profile from './Profile';
+
 
 const form1 = ReactDOM.createRoot(document.getElementById('registerform'));
 form1.render(
@@ -55,6 +58,12 @@ loans.render(
 
 );
 
+const rewards = ReactDOM.createRoot(document.getElementById('reward'));
+rewards.render(
+
+    <Rewards />
+
+);
 
 const cryptos = ReactDOM.createRoot(document.getElementById('crypto'));
 cryptos.render(
@@ -74,6 +83,13 @@ const settings = ReactDOM.createRoot(document.getElementById('setting'));
 settings.render(
 
     <Settings />
+
+);
+
+const profilepage= ReactDOM.createRoot(document.getElementById('profileblock'));
+profilepage.render(
+
+    <Profile />
 
 );
 

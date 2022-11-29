@@ -1,13 +1,6 @@
 import './Home.css';
 
-
-
-
 function Home() {
-
-    function openprof(){
-        document.getElementById("profileblock").style.visibility = "visible";
-    }
     
 
     function funhome(){
@@ -150,7 +143,6 @@ function Home() {
         document.getElementById("setting").style.visibility="hidden";
         document.getElementById("chatoptions").style.visibility="visible";
         document.getElementById("reward").style.visibility="hidden";
-        document.getElementById("botinterface").style.visibility="hidden";
 
         document.getElementById("imgassistant").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -183,7 +175,6 @@ function Home() {
         document.getElementById("imgcrypto").style.backgroundColor = "white";
         document.getElementById("imgreward").style.backgroundColor = "white";
         
-        
     }
 
 
@@ -191,82 +182,82 @@ function Home() {
         <div>
             <div id="homeblock">
                 <div id='midcontent'>
-                    <div id="card" className='card1'>
+                    <div id="card">
                         <div id="cardtitle">
-                            Money Transfer 
+                            Money Transfer
                         </div>
                         <button id="wallet">
-                        <b> zXpay Wallet</b>
+                            zXpay Wallet
                         </button>
                         <button id="sendmoney">
-                        <b> Send Money</b>
+                            Send money
                         </button>
                         <button id="qrcode">
-                        <b> Scan QR code</b>
+                            Scan QR code
                         </button>
                         <button id="selftransfer">
-                        <b> Self Transfer</b>
+                            Self Transfer
                         </button>
-                        <button id="banktransfer"> 
-                        <b> Bank Transfer</b>
-                        </button> 
+                        <button id="banktransfer">
+                            Bank Transfer
+                        </button>
                         <button id="addaccount">
-                        <b>  Add Account</b>
+                            Add Account
                         </button>
                         <button id="checkbalance">
-                        <b>  Check Balance</b>
+                            Check Balance
                         </button>
                     </div>
-                    <div id="card" className='card2'>
-                        <div id="cardtitle" >
-                         Recharge and Bill Payment
+                    <div id="card">
+                        <div id="cardtitle">
+                            Recharge and Bill Payment
                         </div>
                         <button id="mobilerec">
-                        <b> Mobile <br/>Recharge</b>
+                            Mobile Recharge
                         </button>
                         <button id="dthrec">
-                        <b>  DTH <br/>  Recharge</b>
+                            DTH <br/>  Recharge
                         </button>
                         <button id="fibernetrec">
-                        <b>  Fibernet <br/>Recharge</b>
+                            Fibernet Recharge
                         </button>
                         <button id="googlerec">
-                        <b>  Google Play<br/> Recharge</b>
+                            Google Play Recharge
                         </button>
                         <button id="billpay">
-                        <b>  Bill  <br/>payment</b>
+                            Bill  <br/>payment
                         </button>
                         <button id="gasbook">
-                        <b>  Gas <br/> booking</b>
+                            Gas <br/> booking
                         </button>
                         <button id="fasttagrec">
-                        <b>  Fastag <br/>Recharge</b>
+                            Fastag Recharge
                         </button>
                     </div>
-                    <div id="card" className='card3'>
+                    <div id="card">
                         <div id="cardtitle">
-                          Ticket Booking
+                            Ticket Booking
                         </div>
                         <button id="movie">
-                        <b>  Movie</b>
+                            Movie
                         </button>
                         <button id="train">
-                        <b>   Train</b>
+                            Train
                         </button>
                         <button id="bus">
-                        <b>   Bus</b>
+                            Bus
                         </button>
                         <button id="plane">
-                        <b>  Plane</b>
+                            Plane
                         </button>
                         <button id="cruise">
-                        <b>  Cruise</b>
+                            Cruise
                         </button>
                         <button id="sports">
-                        <b>  Sports</b>
+                            Sports
                         </button>
                         <button id="events">
-                        <b>   Events</b>
+                            Events
                         </button>
                     </div>
                     <div id="botspace"></div>
@@ -294,18 +285,17 @@ function Home() {
             <div id="nav"></div>
 
             <div id="header">
-                <b>  DXPay </b>
+                <b>  zXPay </b>
                 <div id="nav-items">
-                    Hello, 
+                    Hello, John Cena
                 </div>
                 <div id="profile"></div>
                 
                 <div id="profilebox">
                     <div id="pic"></div>
-                    <h5 id="pname"> Name:  </h5> 
-                    <h5 id="pid"> UPI ID: @fyl </h5>
-                    <h5 id="kyc"> KYC Not Verified </h5>
-                    <button id="btprof" onClick={openprof}>Profile</button>
+                    <h5 id="name"> Name: John Cena  </h5> 
+                    <h5 id="uid"> User ID: john123@fyl </h5>
+                    <h5 id="kyc"> KYC Verified </h5>
                 </div>
             </div>
         </div>

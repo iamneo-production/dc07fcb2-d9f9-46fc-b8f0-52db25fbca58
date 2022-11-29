@@ -13,6 +13,9 @@
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
+
     <title>Neo Bank</title>
     <style>
       body {
@@ -21,6 +24,7 @@
         overflow-x: hidden;
 
       }
+   
 
       #totalbox{
         position: absolute;
@@ -43,9 +47,46 @@
         border-radius: 20px;
         box-shadow: 0px 0px 10px 10px rgb(1, 0, 32);
       }
-
-      #home , #transaction, #bankcard, #loan, #crypto, #assistant, #setting{
+      #notification{
+        position: absolute;
+        top:50px;
+        left:880px;
+        height: fit-content;
+        width: fit-content;
+        font-size: 20px;
+        padding: 20px;
+        background-color: rgb(255, 255, 74);
+        border-radius: 30px;
+        z-index: 5;
         visibility: hidden;
+        animation: none;
+      }
+
+      @keyframes notify {
+        0%{
+          visibility: visible;
+          opacity:0;
+        }
+        30%{
+          visibility: visible;
+          opacity: 1;
+        }
+        70%{
+          visibility: visible;
+          opacity: 1;
+        }
+        100%{
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+
+      #home , #transaction, #bankcard, #loan,#reward, #crypto, #assistant, #setting, #profileblock{
+        visibility: hidden;
+      }
+
+      #profileblock{
+        z-index: 1000;
       }
     </style>
   </head>
@@ -60,16 +101,16 @@
       <div id="registerform"></div>
     </div>
     <div id="cover"></div>
+    <div id="notification">Please Register</div>
     <div id="home"></div>
     <div id="transaction"></div>
     <div id="bankcard"></div>
     <div id="loan"></div>
+    <div id="reward"></div>
     <div id="crypto"></div>
     <div id="assistant"></div>
     <div id="setting"></div>
+    <div id="profileblock"></div>
 
-
-    
-    
   </body>
 </html>
