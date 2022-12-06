@@ -292,6 +292,7 @@
 }
 
 #btprof{
+    cursor:pointer;
     height: 50px;
     width: 120px;
     background: rgb(74,9,93);

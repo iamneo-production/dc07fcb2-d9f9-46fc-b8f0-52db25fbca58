@@ -12,7 +12,11 @@
   
 #card{
     
+<<<<<<< HEAD
     height: 300px;
+=======
+    height: 350px;
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
     width: 1750px;
     border-top:1px solid transparent;
     background: rgb(74,9,93);
@@ -43,27 +47,173 @@
 
 #card button{
     cursor: pointer;
+<<<<<<< HEAD
     margin-top: 30px;
+=======
+<<<<<<<< HEAD:novaproject/src/Home.css
+    margin-top: 20px;
+========
+    margin-top: 30px;
+>>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla:nova_project/src/Home copy.css
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
     margin-left: 90px;
     font-size: 20px;
     font-family: arial;
     width: 150px;
     height: 150px;
     background-color: yellow;
+<<<<<<< HEAD
     background-size: 60% 50%;
     background-position-x: 30px;
     background-position-y: 20px;
+=======
+<<<<<<<< HEAD:novaproject/src/Home.css
+    background-size: 60% 60%;
+    background-position-x: 30px;
+    background-position-y: 30px;
+========
+    background-size: 60% 50%;
+    background-position-x: 30px;
+    background-position-y: 20px;
+>>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla:nova_project/src/Home copy.css
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
     background-repeat: no-repeat;
     border-radius: 30px;
     transition: 300ms;
     box-shadow: 4px 6px 3px 3px rgb(107, 107, 0);
     border: none;
+<<<<<<< HEAD
     padding-top: 100px;
+=======
+<<<<<<<< HEAD:novaproject/src/Home.css
+    border-top: 1px solid transparent;
+   
+========
+    padding-top: 100px;
+>>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla:nova_project/src/Home copy.css
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
 }
 
 #card button:hover{
     box-shadow: -6px -4px 3px 3px rgb(107, 107, 0);
 }
+<<<<<<< HEAD
+=======
+.card1 button b{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -50px;
+    color: white;
+    font-style: normal;
+    font-size: 18px;
+}
+.card1 #qrcode b{
+    margin-left: -55px ;
+}
+.card1 #checkbalance b{
+    margin-left: -60px ;
+}
+.card1 #banktransfer b{
+    margin-left: -55px ;
+}
+
+
+.card2 button b{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -40px;
+    color: white;
+    font-style: normal;
+    font-size: 18px;
+}
+.card2 #googlerec b{
+    margin-left: -50px ;
+}
+
+
+
+.card3 button b{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -23px;
+    color: white;
+    font-style: normal;
+    font-size: 18px;
+}
+.card3 #bus b{
+    margin-left: -18px ;
+}
+
+
+
+#wallet{
+    background-image: url(images/home/wallet.png);
+}
+#sendmoney{
+    background-image: url(images/home/sendmoney.png);
+}
+#qrcode{
+    background-image: url(images/home/qrcode.png);
+}
+#selftransfer{
+    background-image: url(images/home/selftransfer.png);
+}
+#banktransfer{
+    background-image: url(images/home/banktransfer.png);
+}
+#addaccount{
+    background-image: url(images/home/addbank.png);
+}
+#checkbalance{
+    background-image: url(images/home/checkbalance.png);
+}
+
+#mobilerec{
+    background-image: url(images/home/mobilerec.png);
+}
+#dthrec{
+    background-image: url(images/home/dth.png);
+}
+#fibernetrec{
+    background-image: url(images/home/fibernet.png);
+}
+#googlerec{
+    background-image: url(images/home/googleplay.png);
+}
+#billpay{
+    background-image: url(images/home/bill.png);
+}
+#gasbook{
+    background-image: url(images/home/gas.png);
+}
+#fasttagrec{
+    background-image: url(images/home/fasttag.png);
+}
+
+#movie{
+    background-image: url(images/home/movie.png);
+}
+#train{
+    background-image: url(images/home/train.png);
+}
+#bus{
+    background-image: url(images/home/bus.png);
+}
+#plane{
+    background-image: url(images/home/plane.png);
+}
+#cruise{
+    background-image: url(images/home/cruise.png);
+}
+#sports{
+    background-image: url(images/home/sports.png);
+}
+#events{
+    background-image: url(images/home/event.png);
+}
+
+
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
 
 #wallet{
     background-image: url(images/home/wallet.png);
@@ -161,6 +311,10 @@
     display: inline;
     background-color: yellow;
     border-radius: 8px;
+<<<<<<< HEAD
+=======
+    padding-left: 10px;
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
 }
 
 
@@ -199,12 +353,20 @@
     animation: disp 200ms;
 }
 
+<<<<<<< HEAD
 #profile:hover ~ #profilebox #logout{
+=======
+#profile:hover ~ #profilebox #btprof{
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
     visibility: visible;
     animation: disp 200ms;
 }
 
+<<<<<<< HEAD
 #name,#uid{
+=======
+#pname,#pid{
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
     margin-top: 40px;
     margin-left: 100px;
 }
@@ -220,18 +382,30 @@
     overflow: hidden;
     border-radius: 7px;
 }
+<<<<<<< HEAD
 #name{
+=======
+#pname{
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
     margin-bottom: -38px;
 }
 
 #kyc{
+<<<<<<< HEAD
     margin-left: 75px;
+=======
+    margin-left: 55px;
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
     font-size: 25px;
     margin-top: -2px;
 }
 #profilebox{
     position: absolute;
+<<<<<<< HEAD
     height: 150px;
+=======
+    height: 220px;
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
     width: 300px;
     border-radius: 50px;
     background:  rgb(255, 255, 20);
@@ -243,6 +417,21 @@
     border: 5px solid black;
 }
 
+<<<<<<< HEAD
+=======
+#btprof{
+    height: 50px;
+    width: 120px;
+    background: rgb(74,9,93);
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+    margin-top: -20px;
+    margin-left: 85px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
 
 
 #profilebox:hover{
@@ -259,7 +448,11 @@
     100%{
         left: 1550px;
         top:80px;
+<<<<<<< HEAD
         height: 150px;
+=======
+        height:220px;
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
         width: 300px;
     }
 }

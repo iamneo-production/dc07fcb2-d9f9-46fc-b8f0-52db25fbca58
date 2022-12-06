@@ -1,6 +1,17 @@
 import './Home.css';
 
+<<<<<<< HEAD
 function Home() {
+=======
+
+
+
+function Home() {
+
+    function openprof(){
+        document.getElementById("profileblock").style.visibility = "visible";
+    }
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
     
 
     function funhome(){
@@ -143,6 +154,13 @@ function Home() {
         document.getElementById("setting").style.visibility="hidden";
         document.getElementById("chatoptions").style.visibility="visible";
         document.getElementById("reward").style.visibility="hidden";
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:novaproject/src/Home.js
+        document.getElementById("botinterface").style.visibility="hidden";
+========
+>>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla:nova_project/src/Home copy.js
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
 
         document.getElementById("imgassistant").style.backgroundColor = "yellow";
         document.getElementById("imghome").style.backgroundColor = "white";
@@ -174,6 +192,13 @@ function Home() {
         document.getElementById("imgloan").style.backgroundColor = "white";
         document.getElementById("imgcrypto").style.backgroundColor = "white";
         document.getElementById("imgreward").style.backgroundColor = "white";
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:novaproject/src/Home.js
+        
+========
+>>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla:nova_project/src/Home copy.js
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
         
     }
 
@@ -182,17 +207,104 @@ function Home() {
         <div>
             <div id="homeblock">
                 <div id='midcontent'>
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:novaproject/src/Home.js
+                    <div id="card" className='card1'>
+                        <div id="cardtitle">
+                            Money Transfer 
+                        </div>
+                        <button id="wallet">
+                        <b> zXpay Wallet</b>
+========
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
                     <div id="card">
                         <div id="cardtitle">
                             Money Transfer
                         </div>
                         <button id="wallet">
                             zXpay Wallet
+<<<<<<< HEAD
                         </button>
                         <button id="sendmoney">
                             Send money
                         </button>
                         <button id="qrcode">
+=======
+>>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla:nova_project/src/Home copy.js
+                        </button>
+                        <button id="sendmoney">
+                        <b> Send Money</b>
+                        </button>
+                        <button id="qrcode">
+<<<<<<<< HEAD:novaproject/src/Home.js
+                        <b> Scan QR code</b>
+                        </button>
+                        <button id="selftransfer">
+                        <b> Self Transfer</b>
+                        </button>
+                        <button id="banktransfer"> 
+                        <b> Bank Transfer</b>
+                        </button> 
+                        <button id="addaccount">
+                        <b>  Add Account</b>
+                        </button>
+                        <button id="checkbalance">
+                        <b>  Check Balance</b>
+                        </button>
+                    </div>
+                    <div id="card" className='card2'>
+                        <div id="cardtitle" >
+                         Recharge and Bill Payment
+                        </div>
+                        <button id="mobilerec">
+                        <b> Mobile <br/>Recharge</b>
+                        </button>
+                        <button id="dthrec">
+                        <b>  DTH <br/>  Recharge</b>
+                        </button>
+                        <button id="fibernetrec">
+                        <b>  Fibernet <br/>Recharge</b>
+                        </button>
+                        <button id="googlerec">
+                        <b>  Google Play<br/> Recharge</b>
+                        </button>
+                        <button id="billpay">
+                        <b>  Bill  <br/>payment</b>
+                        </button>
+                        <button id="gasbook">
+                        <b>  Gas <br/> booking</b>
+                        </button>
+                        <button id="fasttagrec">
+                        <b>  Fastag <br/>Recharge</b>
+                        </button>
+                    </div>
+                    <div id="card" className='card3'>
+                        <div id="cardtitle">
+                          Ticket Booking
+                        </div>
+                        <button id="movie">
+                        <b>  Movie</b>
+                        </button>
+                        <button id="train">
+                        <b>   Train</b>
+                        </button>
+                        <button id="bus">
+                        <b>   Bus</b>
+                        </button>
+                        <button id="plane">
+                        <b>  Plane</b>
+                        </button>
+                        <button id="cruise">
+                        <b>  Cruise</b>
+                        </button>
+                        <button id="sports">
+                        <b>  Sports</b>
+                        </button>
+                        <button id="events">
+                        <b>   Events</b>
+========
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
                             Scan QR code
                         </button>
                         <button id="selftransfer">
@@ -258,6 +370,10 @@ function Home() {
                         </button>
                         <button id="events">
                             Events
+<<<<<<< HEAD
+=======
+>>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla:nova_project/src/Home copy.js
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
                         </button>
                     </div>
                     <div id="botspace"></div>
@@ -285,17 +401,36 @@ function Home() {
             <div id="nav"></div>
 
             <div id="header">
+<<<<<<< HEAD
                 <b>  zXPay </b>
                 <div id="nav-items">
                     Hello, John Cena
+=======
+                <b>  DXPay </b>
+                <div id="nav-items">
+                    Hello, 
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
                 </div>
                 <div id="profile"></div>
                 
                 <div id="profilebox">
                     <div id="pic"></div>
+<<<<<<< HEAD
                     <h5 id="name"> Name: John Cena  </h5> 
                     <h5 id="uid"> User ID: john123@fyl </h5>
                     <h5 id="kyc"> KYC Verified </h5>
+=======
+<<<<<<<< HEAD:novaproject/src/Home.js
+                    <h5 id="pname"> Name:  </h5> 
+                    <h5 id="pid"> UPI ID: @fyl </h5>
+                    <h5 id="kyc"> KYC Not Verified </h5>
+                    <button id="btprof" onClick={openprof}>Profile</button>
+========
+                    <h5 id="name"> Name: John Cena  </h5> 
+                    <h5 id="uid"> User ID: john123@fyl </h5>
+                    <h5 id="kyc"> KYC Verified </h5>
+>>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla:nova_project/src/Home copy.js
+>>>>>>> NASSCOM---Neo-Bank-Prasanth-malla
                 </div>
             </div>
         </div>
