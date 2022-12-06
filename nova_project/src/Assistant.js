@@ -44,12 +44,12 @@ const answers = [
     ["You need 5200000rs more for buying a tesla car"],
     ["Sure sir"],
     ["Is there anything else I can help you?"],
-<<<<<<< HEAD:novaproject/src/Assistant.js
+
     ["Have a great day"]
-=======
+
     ["Have a great day"],
     ["Can you please say it again" , "Please repeat it again"]
->>>>>>> NASSCOM---Neo-Bank-Prasanth-malla:nova_project/src/Assistant.js
+
 
 ];
 
